@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Kayıt Ol{% endblock %}
+
+{% block body %}
+    <h1>Kayıt Ol</h1>
+
+    {{ form_start(registrationForm) }}
+
+    <button type="submit" class="btn">Kaydet</button>
+    {{ form_end(registrationForm) }}
+
+
+{% endblock %}
