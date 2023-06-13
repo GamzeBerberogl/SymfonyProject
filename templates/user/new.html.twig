@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Yeni Kullanıcı{% endblock %}
+
+{% block body %}
+    <h1>Yeni Kayıt</h1>
+
+    {{ include('user/_form.html.twig') }}
+
+    <a href="{{ path('app_register_index') }}">geri dön</a>
+{% endblock %}
